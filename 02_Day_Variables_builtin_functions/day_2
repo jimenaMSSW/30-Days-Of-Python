@@ -1,15 +1,12 @@
 # day 2 of python programming
-first_name = input(
-Declare a last name variable and assign a value to it
-Declare a full name variable and assign a value to it
-Declare a country variable and assign a value to it
-Declare a city variable and assign a value to it
-Declare an age variable and assign a value to it
-Declare a year variable and assign a value to it
-Declare a variable is_married and assign a value to it
-Declare a variable is_true and assign a value to it
-Declare a variable is_light_on and assign a value to it
-Declare multiple variable on one line
+first_name, last_name, full_name = 'jane', 'doe', 'jane doe'
+country = 'united states'
+city = new york 
+age = 25
+year = 1999
+is_married = true
+is_true = true
+is_light_on = is_true
   
 Exercises: Level 2
 Check the data type of all your variables using type() built-in function

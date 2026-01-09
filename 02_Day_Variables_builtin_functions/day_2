@@ -1,11 +1,12 @@
+import math
 # day 2 of python programming
 first_name, last_name, full_name = 'jane', 'doe', 'jane doe'
 country = 'united states'
-city = new york 
+city = 'new york' 
 age = 25
 year = 1999
-is_married = true
-is_true = true
+is_married = True
+is_true = True
 is_light_on = is_true
   
 #Exercises: Level 2
@@ -14,13 +15,13 @@ print(len(last_name))
 print(len(full_name))
 print(len(country))
 print(len(city))
-print(len(age))
-print(len(year))
 
-if(len(first_name) > len(last_name):
-  return is_true
-else:
-  return false
+def compare_names(first_name, last_name):
+    if len(first_name) > len(last_name):
+        return true
+    else:
+        return false
+
 
 num_one = 5 
 num_two = 4
@@ -29,13 +30,21 @@ diff = num_one - num_two
 product = num_two * num_one
 division = num_one/num_two
 remainder = num_two % num_one
-num_one
+pow(num_one, num_two)
+floor_division = num_one//num_two
+area_of_circle = math.pi * (30**2)
+circum_of_circle = 2*math.pi*30
 
-Calculate num_one to the power of num_two and assign the value to a variable exp
-Find floor division of num_one by num_two and assign the value to a variable floor_division
-The radius of a circle is 30 meters.
-Calculate the area of a circle and assign the value to a variable name of area_of_circle
-Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
-Take radius as user input and calculate the area.
-Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+user_radius = input('Enter the radius:')
+area = math.pi * (pow(float(user_radius), 2))
+
+f_n = input('Enter first name:')
+l_n = input('Enter last name:')
+ctry = input('Enter country:')
+age = input('Enter age:')
+
+print(f_n)
+print(l_n)
+print(ctry)
+print(age)
+print(f_n)

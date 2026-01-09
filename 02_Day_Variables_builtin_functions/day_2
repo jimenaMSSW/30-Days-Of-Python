@@ -8,9 +8,15 @@ is_married = true
 is_true = true
 is_light_on = is_true
   
-Exercises: Level 2
-Check the data type of all your variables using type() built-in function
-Using the len() built-in function, find the length of your first name
+#Exercises: Level 2
+print(len(first_name))
+print(len(last_name))
+print(len(full_name))
+print(len(country))
+print(len(city))
+print(len(age))
+print(len(year))
+
 Compare the length of your first name and your last name
 Declare 5 as num_one and 4 as num_two
 Add num_one and num_two and assign the value to a variable total
